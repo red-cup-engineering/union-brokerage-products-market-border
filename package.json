@@ -29,5 +29,10 @@
     "type": "git",
     "url": "git+https://github.com/red-cup-engineering/union-brokerage-products-market-border.git"
   },
-  "private": false
+  "private": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
 }
