@@ -1,9 +1,9 @@
 import { randomBytes } from "node:crypto";
 import { closeSync, constants, existsSync, fsyncSync, linkSync, mkdirSync, openSync, readFileSync, statSync, unlinkSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
-import { materializeSenActivity, extractSenActivity, projectSenActivity } from "@red-cup-engineering/activitypub-services-section/sen-activity";
+import { materializeSenActivity, extractSenActivity, projectSenActivity } from "@red-cup-engineering/activitypub-engineering-services-section/sen-activity";
 import { serveActivityPubProvider } from "@red-cup-engineering/activitypub-server";
-import { deliverActivity } from "@red-cup-engineering/activitypub-services-section";
+import { deliverActivity } from "@red-cup-engineering/activitypub-engineering-services-section";
 import { admitJsonSemanticContent, EMPTY_WITNESS_ROOT, identifyJsonSemanticContent, semanticIdOf } from "@red-cup-engineering/computer-data-engineering-services-section/semiotic-expression-notation/semantic-content-identity";
 import { canonicalJson as canonical } from "@red-cup-engineering/json-services-section/canonical-json";
 const A2A_CARRIER_KIND = "rsc-quiescent.a2a-json";
@@ -12,7 +12,7 @@ const decodeSemantic = (bytes) => admitJsonSemanticContent({ bytes, objectKind: 
 
 const semanticId = semanticIdOf("brokerage.union-products-market-border.record");
 import { contractUnionBrokerageOffer, deliverUnionBrokerageContract } from "./union-border.mjs";
-import { ACTIVITYSTREAMS_PUBLIC } from "@red-cup-engineering/activitypub-services-section/activitystreams";
+import { ACTIVITYSTREAMS_PUBLIC } from "@red-cup-engineering/activitypub-engineering-services-section/activitystreams";
 import { sha256Hex } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/integrity";
 export { ACTIVITYSTREAMS_PUBLIC };
 
