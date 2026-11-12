@@ -15,6 +15,7 @@
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
+    "@red-cup-engineering/computer-code-engine": "^0.1.0",
     "@red-cup-engineering/computer-content-address-engineering-services-section": "0.2.0",
     "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "0.3.1",
     "@red-cup-engineering/json-services-section": "0.4.0",
